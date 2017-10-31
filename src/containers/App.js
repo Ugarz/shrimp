@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
+
 import Hero from './Hero'
 
 class App extends Component {
@@ -13,8 +14,8 @@ class App extends Component {
         );
     }
 }
-App.propTypes = {
-  children: PropTypes.children
-}
+App.propTypes = {}
+
 App.defaultProps = {}
+
 export default App

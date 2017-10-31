@@ -1,3 +1,14 @@
-import simpleLightbox from 'simpleLightbox'
 
-const lightbox = document.getElementsByClassName('gallery').simpleLightbox(options);
+import React, { Component } from 'react';
+
+class Portfolio extends Component {
+  render() {
+    return (
+      <div className="Portfolio">
+        Hi Portfolio
+      </div>
+    );
+  }
+}
+
+export default Portfolio;

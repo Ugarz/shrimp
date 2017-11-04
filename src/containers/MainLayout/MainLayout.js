@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
 import './MainLayout.css'
 
-import Home from '../Home/Home'
-import Services from '../Services/Services'
-import Portfolio from '../Portfolio/Portfolio'
+import Home from '../../components/Home/Home'
+import Services from '../../components/Services/Services'
+import Portfolio from '../../components/Portfolio/Portfolio'
 
 class MainLayout extends Component {
     render() {

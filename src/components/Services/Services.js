@@ -1,8 +1,6 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import styles from './undefined.css'
 
-const Services = ({}) => (
+const Services = () => (
   <section id="services">
       <div class="centering">
         <h1>Ce que je fais</h1>

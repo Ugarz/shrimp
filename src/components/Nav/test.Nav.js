@@ -1,14 +1,14 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import Project from './Project'
+import Nav from './Nav'
 
-describe('Project', () => {
+describe('Nav', () => {
   let component, props
 
   beforeEach(() => {
     props = {}
-    component = shallow(<Project {...props} />)
+    component = shallow(<Nav {...props} />)
   })
 
   it('should', () => {

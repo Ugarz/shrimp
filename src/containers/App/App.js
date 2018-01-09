@@ -5,24 +5,22 @@ import './App.css'
 
 // TODO : check si on peut faire mieux
 import MainLayout from "../MainLayout/MainLayout"
+import ProjectLayout from "../ProjectLayout/ProjectLayout"
 import Nav from "../../components/Nav/Nav"
-import Project from '../Project/Project'
-import ProjectVue from '../components/ProjectVue'
 
 const pending = false;
 
 class App extends Component {
     render() {
-
         return (
-          <div className="container">
+          <div className="">
+            <Nav />
             <Switch>
-              <Route component={Nav} />
-              <Route path='/' render={props => {
+              <Route exact path='/' render={props => {
                 if(pending) return <div>Loading...</div>
                 return <MainLayout {...props} />
               }} />
-              <Route path='/project' component={ProjectVue} />
+              <Route path='/project' component={ProjectLayout} />
             </Switch>
           </div>
         );

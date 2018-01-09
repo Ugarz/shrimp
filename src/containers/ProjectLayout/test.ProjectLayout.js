@@ -1,14 +1,14 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import Project from './Project'
+import ProjectLayout from './ProjectLayout'
 
-describe('Project', () => {
+describe('ProjectLayout', () => {
   let component, props
 
   beforeEach(() => {
     props = {}
-    component = shallow(<Project {...props} />)
+    component = shallow(<ProjectLayout {...props} />)
   })
 
   it('should', () => {

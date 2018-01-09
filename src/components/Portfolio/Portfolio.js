@@ -1,14 +1,21 @@
-
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+// import PropTypes from 'prop-types'
+import './Portfolio.css'
 
 class Portfolio extends Component {
-  render() {
-    return (
-      <div className="Portfolio">
-        Hi from Portfolio
-      </div>
-    );
-  }
+    constructor(props) {
+        super(props)
+    }
+    null
+    render() {
+        return (
+            <div className="Portfolio">Hello from Portfolio</div>
+        );
+    }
 }
 
-export default Portfolio;
+Portfolio.propTypes = {}
+
+Portfolio.defaultProps = {}
+
+export default Portfolio

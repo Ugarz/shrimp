@@ -6,6 +6,7 @@ import './MainLayout.css'
 import Home from '../../components/Home/Home'
 import Services from '../../components/Services/Services'
 import Portfolio from '../../components/Portfolio/Portfolio'
+import Project from '../../components/Project/Project'
 
 class MainLayout extends Component {
     render() {
@@ -13,11 +14,6 @@ class MainLayout extends Component {
           <div className="MainLayout">
             <h1>This is the root rendered by the main layout</h1>
             <Home />
-            <Switch>
-              <Route path='/home' component={Home} />
-              <Route path='/portfolio' component={Portfolio} />
-              <Route path='/services' component={Services} />
-            </Switch>
           </div>
         );
     }
